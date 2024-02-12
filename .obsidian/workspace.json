@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/JavaSe.md",
+                "file": "Note/bit 和 byte.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/JavaSe.md",
+                "file": "Note/bit 和 byte.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/JavaSe.md",
+                "file": "Note/bit 和 byte.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/JavaSe.md"
+                "file": "Note/bit 和 byte.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "fd1c62261844c290",
   "lastOpenFiles": [
-    "Note/bit 和 byte.md",
     "Note/JavaSe.md",
+    "\u001b[A\u001b[A\u001b[B\u001b[B\u001b[B.pub",
+    "\u001b[A\u001b[A\u001b[B\u001b[B\u001b[B",
+    "Note/bit 和 byte.md",
     "Note/编程入门.md",
     "Note/最新进度.md",
     "Note/未命名.md",
