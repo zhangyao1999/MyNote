@@ -4,50 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4a18f31fa155f190",
+        "id": "d60bd86f5c5c54ad",
         "type": "tabs",
         "children": [
           {
-            "id": "fd1c62261844c290",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/bit 和 byte.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9cc6398569f1d7c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/编程基础知识.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfb279c6929b50b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/常用的Dos命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f4ef2ce143d1f2f",
+            "id": "ef0c9295c0adcc84",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,12 +21,12 @@
             }
           },
           {
-            "id": "907a740d44cf982f",
+            "id": "4c84573a6a8bc8a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/编程基础知识.md",
+                "file": "Note/JavaSe.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,77 +34,12 @@
             }
           },
           {
-            "id": "16223cbac7f65d21",
+            "id": "0278c3fff45bd9fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/常用的系统及工具命令.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2be7668f7c9186cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/JAVA语言概述.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dafb9b0469051e5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/JAVA语言概述.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "309e023f6e70386b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/JAVA语言概述.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de2d4aef82645135",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/安装JDK.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d2ea2901f327135",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/安装的PATH和JAVA_HOME有啥用？.md",
+                "file": "Note/最新进度.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -151,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/安装的PATH和JAVA_HOME有啥用？.md",
+                "file": "Note/最新进度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/安装的PATH和JAVA_HOME有啥用？.md",
+                "file": "Note/最新进度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/安装的PATH和JAVA_HOME有啥用？.md"
+                "file": "Note/最新进度.md"
               }
             }
           }
@@ -278,19 +174,26 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5d2ea2901f327135",
+  "active": "0278c3fff45bd9fb",
   "lastOpenFiles": [
-    "Note/安装JDK.md",
-    "Note/安装的PATH和JAVA_HOME有啥用？.md",
-    "Note/JAVA语言概述.md",
-    "Note/编程基础知识.md",
-    "Note/JDK和JRE.md",
-    "Note/最新进度.md",
-    "Note/常用的Dos命令.md",
-    "Note/常用的系统及工具命令.md",
+    "Note/面向对象.md",
+    "Pic/HelloWorld.java",
     "Note/JavaSe.md",
-    "Note/bit 和 byte.md",
+    "Note/最新进度.md",
+    "Note/JAVA语言概述.md",
+    "Note/常用的系统及工具命令.md",
     "Pic/Pasted image 20240212200530.png",
+    "Note/bit 和 byte.md",
+    "Note/常用的Dos命令.md",
+    "Note/HelloWorld.md",
+    "Note/vim命令.md",
+    "Note/编程基础知识.md",
+    "Pic/Pasted image 20240213151747.png",
+    "Pic/Pasted image 20240213155236.png",
+    "Note/安装JDK.md",
+    "未命名",
+    "Note/安装的PATH和JAVA_HOME有啥用？.md",
+    "Note/JDK和JRE.md",
     "\u001b[A\u001b[A\u001b[B\u001b[B\u001b[B.pub",
     "\u001b[A\u001b[A\u001b[B\u001b[B\u001b[B",
     "Note/().md",
