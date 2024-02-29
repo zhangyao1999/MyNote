@@ -1,0 +1,8 @@
+- 修改文件编码
+	- `:set fileencoding`查看文件编码
+	- `:set fileencoding=utf-8`修改文件编码
+- 删除当前行
+	- 命令模式下输入dd
+- 撤销与反撤销
+	- 命令模式：撤销为u
+	- 命令模式：撤销为ctrl+r
