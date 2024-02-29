@@ -1,7 +1,7 @@
 {
   "accentColor": "",
-  "cssTheme": "Minimal",
-  "baseFontSize": 16,
-  "translucency": true,
+  "cssTheme": "",
+  "baseFontSize": 18,
+  "translucency": false,
   "theme": "moonstone"
 }

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d60bd86f5c5c54ad",
+        "id": "ad44a0f791f78342",
         "type": "tabs",
         "children": [
           {
-            "id": "ef0c9295c0adcc84",
+            "id": "489a624cc0c5fafb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "4c84573a6a8bc8a9",
+            "id": "87218fe7998540e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/JavaSe.md",
+                "file": "Note/面向对象.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,77 @@
             }
           },
           {
-            "id": "0278c3fff45bd9fb",
+            "id": "b5d9df99edb8203d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/最新进度.md",
+                "file": "Note/2024-02-16.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d57507dc04c96da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/面向对象.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55945a4a570245b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/方法.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8d3f1d2c098b48b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/方法的重载.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22a6112ef87b13b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/权限修饰符.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc8152c9258c3df3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/方法.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -97,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "392d15f2bc600e33",
@@ -113,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/最新进度.md",
+                "file": "Note/方法的重载.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/最新进度.md",
+                "file": "Note/方法的重载.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/最新进度.md"
+                "file": "Note/方法的重载.md"
               }
             }
           }
@@ -174,26 +240,40 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0278c3fff45bd9fb",
+  "active": "a8d3f1d2c098b48b",
   "lastOpenFiles": [
+    "Note/方法.md",
+    "Note/权限修饰符.md",
     "Note/面向对象.md",
-    "Pic/HelloWorld.java",
+    "Note/属性.md",
     "Note/JavaSe.md",
-    "Note/最新进度.md",
     "Note/JAVA语言概述.md",
-    "Note/常用的系统及工具命令.md",
-    "Pic/Pasted image 20240212200530.png",
-    "Note/bit 和 byte.md",
-    "Note/常用的Dos命令.md",
     "Note/HelloWorld.md",
-    "Note/vim命令.md",
+    "Note/安装JDK.md",
+    "Note/JDK和JRE.md",
+    "Note/最新进度.md",
     "Note/编程基础知识.md",
+    "Note/常用的系统及工具命令.md",
+    "Note/vim命令.md",
+    "Note/bit 和 byte.md",
+    "Note/方法的重载.md",
+    "Note/属性和局部变量的区别.md",
+    "Note/2024-02-16.md",
+    "Note/封装.md",
+    "Note/Shell.md",
+    "Note/未命名.md",
+    "Pic/Pasted image 20240216003436.png",
+    "Shell",
+    "Note/2024-02-15.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "other",
+    "Pic/HelloWorld.java",
+    "Pic/Pasted image 20240212200530.png",
+    "Note/常用的Dos命令.md",
     "Pic/Pasted image 20240213151747.png",
     "Pic/Pasted image 20240213155236.png",
-    "Note/安装JDK.md",
-    "未命名",
     "Note/安装的PATH和JAVA_HOME有啥用？.md",
-    "Note/JDK和JRE.md",
     "\u001b[A\u001b[A\u001b[B\u001b[B\u001b[B.pub",
     "\u001b[A\u001b[A\u001b[B\u001b[B\u001b[B",
     "Note/().md",
@@ -202,12 +282,8 @@
     "Pic/Pasted image 20240210151007.png",
     "Pic/Pasted image 20240210150953.png",
     "Note/create a link.md",
-    "Note/aa.md",
-    "Note/nihao.md",
     "Pic",
     "Note",
-    "未命名 2.canvas",
-    "未命名 1.canvas",
-    "未命名.canvas"
+    "未命名 2.canvas"
   ]
 }
