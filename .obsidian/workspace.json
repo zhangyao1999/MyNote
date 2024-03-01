@@ -11,9 +11,12 @@
             "id": "489a624cc0c5fafb",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pic/Pasted image 20240213151747.png"
+                "file": "Note/递归方法.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -158,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pic/Pasted image 20240213151747.png",
+                "file": "Note/递归方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pic/Pasted image 20240213151747.png",
+                "file": "Note/递归方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pic/Pasted image 20240213151747.png"
+                "file": "Note/递归方法.md"
               }
             }
           }
@@ -221,6 +224,10 @@
   },
   "active": "489a624cc0c5fafb",
   "lastOpenFiles": [
+    "Note/方法.md",
+    "Note/递归方法.md",
+    "Note/方法的重载.md",
+    "Pic/Pasted image 20240213151747.png",
     "Pic/Pasted image 20240213155236.png",
     "Pic/Pasted image 20240216003436.png",
     "Pic/String传值.jpg",
@@ -229,14 +236,11 @@
     "未命名.canvas",
     "未命名 2.canvas",
     "Note/方法的值传递机制.md",
-    "Note/方法.md",
     "Note/可变形参的方法.md",
-    "Pic/Pasted image 20240213151747.png",
     "Note/Shell.md",
     "Note/test.md",
     "Note/2024-02-15.md",
     "Note/2024-02-16.md",
-    "Note/方法的重载.md",
     "Note/面向对象.md",
     "Note/JavaSe.md",
     "Note/封装.md",
