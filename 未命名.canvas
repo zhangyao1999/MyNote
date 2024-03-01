@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"8859e738db3d0ddb","type":"file","file":"Note/JAVA语言概述.md","x":0,"y":0,"width":400,"height":400},
+		{"id":"87a543b7f69b700b","type":"text","text":"","x":83,"y":-152,"width":250,"height":60},
+		{"id":"c5425d6d96d2e708","type":"text","text":"","x":139,"y":119,"width":250,"height":60},
+		{"id":"cbb51c38586f9e99","type":"file","file":"Pic/Pasted image 20240213151747.png","x":389,"y":-122,"width":400,"height":120}
+	],
+	"edges":[
+		{"id":"2955ffc07515bcbc","fromNode":"8859e738db3d0ddb","fromSide":"top","toNode":"87a543b7f69b700b","toSide":"bottom"}
+	]
+}

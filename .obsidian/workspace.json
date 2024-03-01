@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/JavaSe.md",
+                "file": "Note/方法的值传递机制.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,28 +21,12 @@
             }
           },
           {
-            "id": "87218fe7998540e7",
+            "id": "4169c2bb5012cbcc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Note/面向对象.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5d9df99edb8203d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/2024-02-16.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Pic/Pasted image 20240213151747.png"
               }
             }
           },
@@ -78,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/方法的重载.md",
+                "file": "Note/安装JDK.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -111,8 +95,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "392d15f2bc600e33",
@@ -179,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/方法的重载.md",
+                "file": "Note/方法的值传递机制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/方法的重载.md",
+                "file": "Note/方法的值传递机制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/方法的重载.md"
+                "file": "Note/方法的值传递机制.md"
               }
             }
           }
@@ -240,50 +222,50 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a8d3f1d2c098b48b",
+  "active": "489a624cc0c5fafb",
   "lastOpenFiles": [
     "Note/方法.md",
-    "Note/权限修饰符.md",
+    "Note/可变形参的方法.md",
+    "Pic/String传值.jpg",
+    "Pic/Pasted image 20240213151747.png",
+    "未命名.canvas",
+    "String形参值传递机制.canvas",
+    "未命名 1.canvas",
+    "Note/方法的值传递机制.md",
+    "Note/Shell.md",
+    "Note/test.md",
+    "Note/2024-02-15.md",
+    "Note/2024-02-16.md",
+    "Note/方法的重载.md",
     "Note/面向对象.md",
-    "Note/属性.md",
     "Note/JavaSe.md",
+    "Note/封装.md",
+    "Note/安装JDK.md",
+    "Pic/Pasted image 20240216003436.png",
+    "Pic/Pasted image 20240213155236.png",
+    "Note/权限修饰符.md",
+    "Note/属性.md",
     "Note/JAVA语言概述.md",
     "Note/HelloWorld.md",
-    "Note/安装JDK.md",
     "Note/JDK和JRE.md",
     "Note/最新进度.md",
     "Note/编程基础知识.md",
     "Note/常用的系统及工具命令.md",
     "Note/vim命令.md",
     "Note/bit 和 byte.md",
-    "Note/方法的重载.md",
     "Note/属性和局部变量的区别.md",
-    "Note/2024-02-16.md",
-    "Note/封装.md",
-    "Note/Shell.md",
     "Note/未命名.md",
-    "Pic/Pasted image 20240216003436.png",
     "Shell",
-    "Note/2024-02-15.md",
-    "未命名 1.canvas",
-    "未命名.canvas",
     "other",
     "Pic/HelloWorld.java",
     "Pic/Pasted image 20240212200530.png",
     "Note/常用的Dos命令.md",
-    "Pic/Pasted image 20240213151747.png",
-    "Pic/Pasted image 20240213155236.png",
-    "Note/安装的PATH和JAVA_HOME有啥用？.md",
     "\u001b[A\u001b[A\u001b[B\u001b[B\u001b[B.pub",
     "\u001b[A\u001b[A\u001b[B\u001b[B\u001b[B",
-    "Note/().md",
-    "Note/Welcome.md",
     "Pic/Pasted image 20240210151043.png",
     "Pic/Pasted image 20240210151007.png",
     "Pic/Pasted image 20240210150953.png",
-    "Note/create a link.md",
     "Pic",
-    "Note",
-    "未命名 2.canvas"
+    "Note"
   ]
 }
