@@ -11,12 +11,9 @@
             "id": "489a624cc0c5fafb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Note/方法的值传递机制.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Pic/Pasted image 20240213151747.png"
               }
             }
           },
@@ -145,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "392d15f2bc600e33",
@@ -162,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/方法的值传递机制.md",
+                "file": "Pic/Pasted image 20240213151747.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/方法的值传递机制.md",
+                "file": "Pic/Pasted image 20240213151747.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/方法的值传递机制.md"
+                "file": "Pic/Pasted image 20240213151747.png"
               }
             }
           }
@@ -225,14 +221,17 @@
   },
   "active": "489a624cc0c5fafb",
   "lastOpenFiles": [
-    "Note/方法.md",
-    "Note/可变形参的方法.md",
+    "Pic/Pasted image 20240213155236.png",
+    "Pic/Pasted image 20240216003436.png",
     "Pic/String传值.jpg",
-    "Pic/Pasted image 20240213151747.png",
-    "未命名.canvas",
     "String形参值传递机制.canvas",
     "未命名 1.canvas",
+    "未命名.canvas",
+    "未命名 2.canvas",
     "Note/方法的值传递机制.md",
+    "Note/方法.md",
+    "Note/可变形参的方法.md",
+    "Pic/Pasted image 20240213151747.png",
     "Note/Shell.md",
     "Note/test.md",
     "Note/2024-02-15.md",
@@ -242,8 +241,6 @@
     "Note/JavaSe.md",
     "Note/封装.md",
     "Note/安装JDK.md",
-    "Pic/Pasted image 20240216003436.png",
-    "Pic/Pasted image 20240213155236.png",
     "Note/权限修饰符.md",
     "Note/属性.md",
     "Note/JAVA语言概述.md",
