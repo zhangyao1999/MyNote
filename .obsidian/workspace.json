@@ -21,16 +21,6 @@
             }
           },
           {
-            "id": "040ccc5b78afd860",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
-          },
-          {
             "id": "4169c2bb5012cbcc",
             "type": "leaf",
             "state": {
@@ -105,8 +95,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -233,7 +222,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "040ccc5b78afd860",
+  "active": "489a624cc0c5fafb",
   "lastOpenFiles": [
     "Note/面向对象.md",
     "Note/封装.md",
