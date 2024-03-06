@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/JDK和JRE.md",
+                "file": "Note/JAVA语言概述.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/JDK和JRE.md",
+                "file": "Note/JAVA语言概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/JDK和JRE.md",
+                "file": "Note/JAVA语言概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/JDK和JRE.md"
+                "file": "Note/JAVA语言概述.md"
               }
             }
           }
@@ -224,6 +224,7 @@
   },
   "active": "489a624cc0c5fafb",
   "lastOpenFiles": [
+    "Note/JDK和JRE.md",
     "Note/JAVA语言概述.md",
     "Note/安装JDK.md",
     "Note/JavaSe.md",
@@ -251,7 +252,6 @@
     "Note/2024-02-16.md",
     "Note/属性.md",
     "Note/HelloWorld.md",
-    "Note/JDK和JRE.md",
     "Note/最新进度.md",
     "Note/编程基础知识.md",
     "Note/常用的系统及工具命令.md",
