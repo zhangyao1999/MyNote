@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/JAVA语言概述.md",
+                "file": "Note/方法的值传递机制.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/JAVA语言概述.md",
+                "file": "Note/方法的值传递机制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/JAVA语言概述.md",
+                "file": "Note/方法的值传递机制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/JAVA语言概述.md"
+                "file": "Note/方法的值传递机制.md"
               }
             }
           }
@@ -224,17 +224,21 @@
   },
   "active": "489a624cc0c5fafb",
   "lastOpenFiles": [
-    "Note/JDK和JRE.md",
-    "Note/JAVA语言概述.md",
+    "Note/方法.md",
+    "Note/递归方法.md",
+    "Note/常用的系统及工具命令.md",
+    "Note/编程基础知识.md",
     "Note/安装JDK.md",
+    "Note/JAVA语言概述.md",
     "Note/JavaSe.md",
+    "Note/bit 和 byte.md",
+    "Note/HelloWorld.md",
+    "Note/JDK和JRE.md",
     "Note/面向对象.md",
     "Note/构造器.md",
     "Note/封装.md",
     "Note/权限修饰符.md",
-    "Note/方法.md",
     "Note/属性和局部变量的区别.md",
-    "Note/递归方法.md",
     "asdf.canvas",
     "Note/方法的重载.md",
     "Pic/Pasted image 20240213151747.png",
@@ -251,12 +255,8 @@
     "Note/2024-02-15.md",
     "Note/2024-02-16.md",
     "Note/属性.md",
-    "Note/HelloWorld.md",
     "Note/最新进度.md",
-    "Note/编程基础知识.md",
-    "Note/常用的系统及工具命令.md",
     "Note/vim命令.md",
-    "Note/bit 和 byte.md",
     "Note/未命名.md",
     "Shell",
     "other",
