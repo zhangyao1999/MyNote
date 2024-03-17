@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "9cc8edaae8c76c14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/testMerge.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4169c2bb5012cbcc",
             "type": "leaf",
             "state": {
@@ -95,7 +108,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/方法的值传递机制.md",
+                "file": "Note/testMerge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/方法的值传递机制.md",
+                "file": "Note/testMerge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/方法的值传递机制.md"
+                "file": "Note/testMerge.md"
               }
             }
           }
@@ -222,8 +236,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "489a624cc0c5fafb",
+  "active": "9cc8edaae8c76c14",
   "lastOpenFiles": [
+    "Note/方法的值传递机制.md",
+    "Note/testMerge.md",
     "onnect-timeout",
     "Note/方法.md",
     "Note/递归方法.md",
@@ -249,7 +265,6 @@
     "String形参值传递机制.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas",
-    "Note/方法的值传递机制.md",
     "Note/可变形参的方法.md",
     "Note/Shell.md",
     "Note/test.md",
