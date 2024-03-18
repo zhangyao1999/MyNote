@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/方法的值传递机制.md",
+                "file": "Note/testMerge.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0af00f414fdc883e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/Shell.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +34,38 @@
             }
           },
           {
-            "id": "9cc8edaae8c76c14",
+            "id": "ae4ca21e054fefe2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/testMerge.md",
+                "file": "Note/Linux.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6dc88163b8d1f7fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/Shell.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4267722e3b73694b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/Shell.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -109,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -175,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/testMerge.md",
+                "file": "Note/Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/testMerge.md",
+                "file": "Note/Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/testMerge.md"
+                "file": "Note/Shell.md"
               }
             }
           }
@@ -236,28 +275,36 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9cc8edaae8c76c14",
+  "active": "4267722e3b73694b",
   "lastOpenFiles": [
-    "Note/方法的值传递机制.md",
+    "Note/变量.md",
+    "Note/Shell.md",
+    "Note/shell脚本入门.md",
+    "Note/子shell.md",
+    "Note/Linux.md",
+    "Note/概述.md",
     "Note/testMerge.md",
-    "onnect-timeout",
-    "Note/方法.md",
-    "Note/递归方法.md",
-    "Note/常用的系统及工具命令.md",
-    "Note/编程基础知识.md",
-    "Note/安装JDK.md",
-    "Note/JAVA语言概述.md",
     "Note/JavaSe.md",
-    "Note/bit 和 byte.md",
+    "Note/JAVA语言概述.md",
     "Note/HelloWorld.md",
+    "Note/安装JDK.md",
     "Note/JDK和JRE.md",
     "Note/面向对象.md",
-    "Note/构造器.md",
     "Note/封装.md",
     "Note/权限修饰符.md",
+    "Note/方法.md",
+    "Note/构造器.md",
+    "Note/可变形参的方法.md",
+    "Note/递归方法.md",
+    "Note/方法的值传递机制.md",
+    "Note/方法的重载.md",
+    "Note/属性.md",
+    "onnect-timeout",
+    "Note/常用的系统及工具命令.md",
+    "Note/编程基础知识.md",
+    "Note/bit 和 byte.md",
     "Note/属性和局部变量的区别.md",
     "asdf.canvas",
-    "Note/方法的重载.md",
     "Pic/Pasted image 20240213151747.png",
     "Pic/Pasted image 20240213155236.png",
     "Pic/Pasted image 20240216003436.png",
@@ -265,14 +312,6 @@
     "String形参值传递机制.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas",
-    "Note/可变形参的方法.md",
-    "Note/Shell.md",
-    "Note/test.md",
-    "Note/2024-02-15.md",
-    "Note/2024-02-16.md",
-    "Note/属性.md",
-    "Note/最新进度.md",
-    "Note/vim命令.md",
     "Shell",
     "other",
     "Pic/HelloWorld.java",
