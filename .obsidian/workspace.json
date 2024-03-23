@@ -11,11 +11,95 @@
             "id": "430dfc8486037ed0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Note/JavaSe.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6d03fb1b8a2afd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/Maven.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "798940feb9f06ad4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/Maven.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41fbe59c4f758419",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/Maven.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1db1aee6d616a851",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/Maven.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65de77081970b6d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/Maven.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "491b0ab352fd2e79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/mavn安装与配置.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -81,6 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Note/mavn安装与配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Note/mavn安装与配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +204,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Note/mavn安装与配置.md"
+              }
             }
           }
         ]
@@ -138,8 +226,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "430dfc8486037ed0",
+  "active": "491b0ab352fd2e79",
   "lastOpenFiles": [
+    "Note/Maven.md",
+    "Note/mavn安装与配置.md",
+    "Note/什么是maven.md",
+    "Note/为什么使用maven.md",
+    "Note/JavaSe.md",
     "Note/Shell.md",
     "onnect-timeout",
     "Note/变量.md",
@@ -148,7 +241,6 @@
     "Note/Linux.md",
     "Note/概述.md",
     "Note/testMerge.md",
-    "Note/JavaSe.md",
     "Note/JAVA语言概述.md",
     "Note/HelloWorld.md",
     "Note/安装JDK.md",
@@ -163,9 +255,6 @@
     "Note/方法的值传递机制.md",
     "Note/方法的重载.md",
     "Note/属性.md",
-    "Note/常用的系统及工具命令.md",
-    "Note/编程基础知识.md",
-    "Note/bit 和 byte.md",
     "asdf.canvas",
     "Pic/Pasted image 20240213151747.png",
     "Pic/Pasted image 20240213155236.png",
