@@ -1,6 +1,6 @@
 ### 1 conf
 #### 1.1修改localrespository
-#### 1.2 修改中央仓库网址
+#### 1.2 修改中央仓库网址 
 ```xml
 <mirror>
 
