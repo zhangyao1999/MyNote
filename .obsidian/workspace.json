@@ -8,150 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "430dfc8486037ed0",
+            "id": "2af6b54741013946",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/JavaSe.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6d03fb1b8a2afd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/Maven.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "798940feb9f06ad4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/Maven.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41fbe59c4f758419",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/Maven.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1db1aee6d616a851",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/Maven.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "65de77081970b6d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/Maven.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "491b0ab352fd2e79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/Maven.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0826145f3531958",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/Maven.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0f555e86fad44b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/Maven.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15fb9aff4215059d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/Maven.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efd572438ea45553",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/Maven.md",
+                "file": "Note/构造器.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:top",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/Maven.md",
+                "file": "Note/构造器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/Maven.md",
+                "file": "Note/构造器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -259,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/Maven.md"
+                "file": "Note/构造器.md"
               }
             }
           }
@@ -280,37 +149,37 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "efd572438ea45553",
+  "active": "2af6b54741013946",
   "lastOpenFiles": [
-    "Note/JavaSe.md",
     "Note/面向对象.md",
+    "Note/JavaSe.md",
+    "Note/封装.md",
+    "Note/权限修饰符.md",
+    "Note/最新进度.md",
+    "Note/构造器.md",
+    "Note/Linux.md",
+    "Note/约定的目录结构.md",
+    "Note/Maven.md",
+    "Note/Shell.md",
+    "Note/变量.md",
+    "Note/shell脚本入门.md",
+    "Note/概述.md",
     "Note/方法.md",
     "Note/方法的重载.md",
-    "Note/Maven.md",
-    "Note/约定的目录结构.md",
     "Pic/Pasted image 20240331210336.png",
     "Note/pom.md",
     "Note/使用maven命令生成maven工程.md",
     "Pic/Pasted image 20240331203331.png",
     "Note/maven的坐标.md",
-    "Note/最新进度.md",
-    "Note/构造器.md",
-    "Note/Linux.md",
     "Note/testMerge.md",
     "Note/JAVA语言概述.md",
     "Note/mavn安装与配置.md",
     "Note/什么是maven.md",
     "Note/为什么使用maven.md",
-    "Note/Shell.md",
     "onnect-timeout",
-    "Note/变量.md",
-    "Note/shell脚本入门.md",
     "Note/子shell.md",
-    "Note/概述.md",
     "Note/HelloWorld.md",
     "Note/安装JDK.md",
-    "Note/JDK和JRE.md",
-    "Note/封装.md",
     "asdf.canvas",
     "Pic/Pasted image 20240213151747.png",
     "Pic/Pasted image 20240213155236.png",
