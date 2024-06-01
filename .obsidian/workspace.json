@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2af6b54741013946",
+            "id": "98cf1b0847ef4c99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/构造器.md",
+                "file": "Note/this.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/构造器.md",
+                "file": "Note/this.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/构造器.md",
+                "file": "Note/this.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/构造器.md"
+                "file": "Note/this.md"
               }
             }
           }
@@ -149,14 +149,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2af6b54741013946",
+  "active": "98cf1b0847ef4c99",
   "lastOpenFiles": [
     "Note/面向对象.md",
-    "Note/JavaSe.md",
-    "Note/封装.md",
-    "Note/权限修饰符.md",
-    "Note/最新进度.md",
+    "Note/this.md",
+    "Note/javaBean.md",
+    "Note/属性.md",
+    "Note/属性初始化过程.md",
+    "Note/Redis.md",
     "Note/构造器.md",
+    "Note/封装.md",
+    "Note/JavaSe.md",
+    "Note/最新进度.md",
+    "Note/权限修饰符.md",
     "Note/Linux.md",
     "Note/约定的目录结构.md",
     "Note/Maven.md",
@@ -174,12 +179,7 @@
     "Note/testMerge.md",
     "Note/JAVA语言概述.md",
     "Note/mavn安装与配置.md",
-    "Note/什么是maven.md",
-    "Note/为什么使用maven.md",
     "onnect-timeout",
-    "Note/子shell.md",
-    "Note/HelloWorld.md",
-    "Note/安装JDK.md",
     "asdf.canvas",
     "Pic/Pasted image 20240213151747.png",
     "Pic/Pasted image 20240213155236.png",
