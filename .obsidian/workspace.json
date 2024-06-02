@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/this.md",
+                "file": "Note/设计模式.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bfa9e874653c085f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/import.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/this.md",
+                "file": "Note/import.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/this.md",
+                "file": "Note/import.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/this.md"
+                "file": "Note/import.md"
               }
             }
           }
@@ -149,9 +163,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "98cf1b0847ef4c99",
+  "active": "bfa9e874653c085f",
   "lastOpenFiles": [
     "Note/面向对象.md",
+    "Note/import.md",
+    "Note/JavaSe.md",
+    "Note/设计模式.md",
+    "Note/mvc.md",
+    "Note/package.md",
     "Note/this.md",
     "Note/javaBean.md",
     "Note/属性.md",
@@ -159,7 +178,6 @@
     "Note/Redis.md",
     "Note/构造器.md",
     "Note/封装.md",
-    "Note/JavaSe.md",
     "Note/最新进度.md",
     "Note/权限修饰符.md",
     "Note/Linux.md",
@@ -175,10 +193,6 @@
     "Note/pom.md",
     "Note/使用maven命令生成maven工程.md",
     "Pic/Pasted image 20240331203331.png",
-    "Note/maven的坐标.md",
-    "Note/testMerge.md",
-    "Note/JAVA语言概述.md",
-    "Note/mavn安装与配置.md",
     "onnect-timeout",
     "asdf.canvas",
     "Pic/Pasted image 20240213151747.png",
