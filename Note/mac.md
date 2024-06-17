@@ -1,0 +1,2 @@
+- 批量删除文件 `find . -name "*.url" -delete`
+- 删除空文件夹 `find . -type d -empty -delete`

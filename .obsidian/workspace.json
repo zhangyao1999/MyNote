@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/继承.md",
+                "file": "Note/子类对象实例化过程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#top",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,13 +80,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "392d15f2bc600e33",
@@ -102,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/继承.md",
+                "file": "Note/子类对象实例化过程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/继承.md",
+                "file": "Note/子类对象实例化过程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/继承.md"
+                "file": "Note/子类对象实例化过程.md"
               }
             }
           }
@@ -165,17 +163,19 @@
   },
   "active": "bfa9e874653c085f",
   "lastOpenFiles": [
-    "Note/面向对象.md",
     "Note/super.md",
+    "Note/面向对象.md",
+    "Note/子类对象实例化过程.md",
+    "Note/构造器.md",
+    "Note/JavaSe.md",
+    "Note/常用的系统及工具命令.md",
+    "Note/mac.md",
+    "Note/编程基础知识.md",
     "Note/继承.md",
     "Note/方法的重写.md",
-    "Note/构造器.md",
     "Note/this.md",
     "Note/子类的返回值类型不能大于父类.md",
     "Note/Object.md",
-    "Note/JavaSe.md",
-    "Note/编程基础知识.md",
-    "Note/常用的系统及工具命令.md",
     "Note/vim命令.md",
     "Note/JAVA语言概述.md",
     "Note/最新进度.md",
@@ -189,8 +189,6 @@
     "Note/属性.md",
     "Note/属性初始化过程.md",
     "Note/Redis.md",
-    "Note/Linux.md",
-    "Note/约定的目录结构.md",
     "Pic/Pasted image 20240331210336.png",
     "Pic/Pasted image 20240331203331.png",
     "onnect-timeout",
