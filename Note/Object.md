@@ -157,7 +157,6 @@ class House implements Cloneable, Serializable {
 ------------------------------
 
 - equals
------------------
 
 **源码**
 ```java
@@ -168,14 +167,13 @@ public boolean equals(Object obj) {
 
 **== 和 equals 的区别**
 
-在基本数据类型中: 比较的是数值是否相等。（byte short int long double float char 他们互相之间都可以使用== 除了boolean）
-在引用数据类型中:比较的是地址值是否相等。
+在*基本数据类型*中: 比较的是数值是否相等。（byte short int long double float char 他们互相之间都可以使用== 除了boolean）
+在*引用数据类型*中:比较的是地址值是否相等，即俩个引用是否指向同一个对象实例。
 
 
 -------------------------------
 
 - finalize
-----------
 
 当对象即将进行垃圾回收时，将调用该方法。
 与C++中的析构函数不是对应的。C++中的析构函数调用的时机是确定的，而java不确定。
