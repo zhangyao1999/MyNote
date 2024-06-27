@@ -2,11 +2,11 @@
 - 方法
 	- clone
 参考帖子：[java.lang.Object.clone()解读 - zero516cn - 博客园 (cnblogs.com)](https://www.cnblogs.com/gw811/archive/2012/10/07/2712252.html)
-读源码可以知道
 
-1.clone是**native方法**
-2.clone被protected修饰符修饰。
-3.clone返回一个object对下
+**读源码可以知道**
+- clone是**native方法**
+- clone被protected修饰符修饰。
+- clone返回一个object对下
 
 **浅层复制与深层复制概念：**
 
