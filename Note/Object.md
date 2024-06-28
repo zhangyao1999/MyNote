@@ -204,4 +204,27 @@ java中的Junit单元测试
 
 希望基本数据类型具有类的特征，可以面向对象。所以搞了包装类。
 Byte Short Integer Long Float Double Boolean Character 它们都是Number的子类。
+- 包装类和对应的基本数据类型 可以自动装箱，拆箱 无缝转换。
+- 包装类作为函数的形参时，和其对应的基本类型作为形参效果一样，都是传递值，**对于该对象本身并不会改变**。
+- 包装类.parseXXX方法可以转换成String。是常用方法。
 
+**常见题目：**
+
+```java
+Object o1 = true?new Integer(1):new Double(2.0);   // int和double 自动类型提升
+System.out.println(o1);  // 输出1.0
+```
+
+**当创建Integer对象时,不使用new Integer (inti) 语句,大小在-128~127之间,对象存放在Integer常量池中。**
+```java
+Integer i1 = new Integer(1);  
+Integer i2 = new Integer(1); // new 的包装类 地址值都不同  
+System.out.println(i1 == i2); // false   
+Integer i3 = 1;  
+Integer i4 = 1; // Integer内部有IntegerCache 范围在-128到127 之间 自动装箱时的时候是同一个实例  
+System.out.println(i3 == i4); // true  
+  
+Integer i5 = 128;  
+Integer i6 = 128;  
+System.out.println(i5 == i6); // false
+```
