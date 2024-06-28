@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/Object.md",
+                "file": "Note/JavaSe.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/Object.md",
+                "file": "Note/JavaSe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/Object.md",
+                "file": "Note/JavaSe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/Object.md"
+                "file": "Note/JavaSe.md"
               }
             }
           }
@@ -164,6 +164,8 @@
   },
   "active": "bfa9e874653c085f",
   "lastOpenFiles": [
+    "Note/TempRecord.md",
+    "Note/JavaSe.md",
     "Note/面向对象.md",
     "Note/Object.md",
     "Note/包装类.md",
@@ -171,7 +173,6 @@
     "Note/finalize.md",
     "Note/equals.md",
     "Note/clone.md",
-    "Note/JavaSe.md",
     "Note/多态.md",
     "Note/向下转型.md",
     "Note/自动类型提升，强制类型转换.md",
@@ -189,7 +190,6 @@
     "Note/多态性例子.md",
     "Note/子类对象实例化过程.md",
     "Note/super.md",
-    "Note/构造器.md",
     "Pic/Pasted image 20240331210336.png",
     "Pic/Pasted image 20240331203331.png",
     "onnect-timeout",
