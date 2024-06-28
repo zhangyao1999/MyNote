@@ -181,3 +181,27 @@ public boolean equals(Object obj) {
 [finalize的作用 - zhangniuniu - 博客园 (cnblogs.com)](https://www.cnblogs.com/zyy1688/p/10838581.html)
 
 ---------------
+
+- toString
+**java源码**
+```java
+public String toString() {  
+    return getClass().getName() + "@" + Integer.toHexString(hashCode());  
+}
+```
+可以看到输出类名+jvm中的虚拟地址值
+我们可以重写该方法输出类中的属性。
+
+-----------------------------
+
+
+java中的Junit单元测试
+参考帖子：[https://pdai.tech/md/develop/ut/dev-ut-x-junit-idea.html]()
+
+----------------------------
+
+包装类
+
+希望基本数据类型具有类的特征，可以面向对象。所以搞了包装类。
+Byte Short Integer Long Float Double Boolean Character 它们都是Number的子类。
+
