@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/JavaSe.md",
+                "file": "Note/Object.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/JavaSe.md",
+                "file": "Note/Object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/JavaSe.md",
+                "file": "Note/Object.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/JavaSe.md"
+                "file": "Note/Object.md"
               }
             }
           }
@@ -165,6 +165,13 @@
   "active": "bfa9e874653c085f",
   "lastOpenFiles": [
     "Note/面向对象.md",
+    "Note/Object.md",
+    "Note/包装类.md",
+    "Note/toString.md",
+    "Note/finalize.md",
+    "Note/equals.md",
+    "Note/clone.md",
+    "Note/JavaSe.md",
     "Note/多态.md",
     "Note/向下转型.md",
     "Note/自动类型提升，强制类型转换.md",
@@ -174,7 +181,6 @@
     "Note/方法的重载.md",
     "Note/方法.md",
     "Note/可变形参的方法.md",
-    "Note/JavaSe.md",
     "Note/方法的值传递机制.md",
     "Note/封装.md",
     "Note/权限修饰符.md",
@@ -184,12 +190,6 @@
     "Note/子类对象实例化过程.md",
     "Note/super.md",
     "Note/构造器.md",
-    "Note/常用的系统及工具命令.md",
-    "Note/mac.md",
-    "Note/this.md",
-    "Note/子类的返回值类型不能大于父类.md",
-    "Note/Object.md",
-    "Note/vim命令.md",
     "Pic/Pasted image 20240331210336.png",
     "Pic/Pasted image 20240331203331.png",
     "onnect-timeout",
