@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/设计模式.md",
+                "file": "Note/单例模式.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -24,17 +24,11 @@
             "id": "bfa9e874653c085f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/JavaSe.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/JavaSe.md",
+                "file": "Note/单例模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/JavaSe.md",
+                "file": "Note/单例模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/JavaSe.md"
+                "file": "Note/单例模式.md"
               }
             }
           }
@@ -162,13 +156,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bfa9e874653c085f",
+  "active": "98cf1b0847ef4c99",
   "lastOpenFiles": [
-    "Note/TempRecord.md",
+    "Note/设计模式.md",
+    "Note/单例模式.md",
     "Note/JavaSe.md",
     "Note/面向对象.md",
-    "Note/Object.md",
+    "Note/static.md",
     "Note/包装类.md",
+    "Note/TempRecord.md",
+    "Note/Object.md",
     "Note/toString.md",
     "Note/finalize.md",
     "Note/equals.md",
@@ -187,9 +184,6 @@
     "Note/权限修饰符.md",
     "Note/编程基础知识.md",
     "Note/JAVA语言概述.md",
-    "Note/多态性例子.md",
-    "Note/子类对象实例化过程.md",
-    "Note/super.md",
     "Pic/Pasted image 20240331210336.png",
     "Pic/Pasted image 20240331203331.png",
     "onnect-timeout",
