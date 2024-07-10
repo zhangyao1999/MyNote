@@ -141,3 +141,198 @@ public static void main(String[] args) {
 **abstract**
 - abstract不能与final并列修饰同一个类。
 - abstract 不能与private、static、final或native并列修饰同一个方法。
+
+**抽象类的匿名子类**
+
+```java
+public class Test12 {  
+    public static void main(String[] args) {  
+        useItem(new Item() {  
+            @Override  
+            public void method() {  
+                System.out.println("抽象类的匿名子类对象");  
+            }  
+        });  
+    }  
+    public static void useItem(Item item){  
+        item.method();  
+    }  
+}  
+abstract class Item {  
+    public abstract void method();  
+}
+```
+
+**模板方法与设计模式**
+
+功能的一部分是固定的，一部分是易变的，利用多态可以将固定通用的写在父类中，容易变的写在子类中实现。
+
+```java
+public class Test13 {  
+    public static void main(String[] args) {  
+        BankProcess bankProcess = new BankInput();  
+        bankProcess.process();  
+        BankProcess bankProcess2 = new BankOutPut();  
+        bankProcess2.process();  
+    }  
+}  
+  
+abstract class BankProcess {  
+    private void pre() {  
+        System.out.println("取号");  
+    }  
+  
+    private void after() {  
+        System.out.println("反馈评分");  
+    }  
+  
+    protected abstract void invoke(); // 钩子方法 挂住哪个子类执行哪个方法  
+  
+    public final void process() {  
+        pre();  
+        invoke();  
+        after();  
+    }  
+}  
+  
+class BankInput extends BankProcess {  
+  
+    @Override  
+    protected void invoke() {  
+        System.out.println("存款");  
+    }  
+}  
+  
+class BankOutPut extends BankProcess {  
+  
+    @Override  
+    protected void invoke() {  
+        System.out.println("贷款");  
+    }  
+}
+
+```
+
+**接口**
+
+继承是一个 “是不是” （is - a）的关系，而接口实现这是 “能不能”( like - a) 的关系。接口的本质是规范。将不同的类的相同的行为特征抽取出来。
+
+**接口中的成员**
+
+jdk1.7之前 只能有全局常量（public static final）和抽象方法(public abstract)
+jdk1.8之后 除了上面以外，还能有静态方法，默认方法。。。
+
+public static final 和public abstract 书写时可以省略。
+
+接口不可以有构造器，当然也不能实例化。
+
+子类实现接口必须实现全部抽象方法，除非该子类为抽象类。
+
+接口和接口之前可以多继承。
+但是类只能单继承多实现。
+```java
+interface AA {  
+    void method1();  
+}  
+  
+interface BB {  
+    void method2();  
+}  
+  
+interface CC extends AA, BB {  
+  
+}  
+  
+class DD implements CC {  
+  
+    @Override  
+    public void method1() {  
+  
+    }  
+  
+    @Override  
+    public void method2() {  
+  
+    }  
+}
+
+```
+
+接口的匿名实现类
+```java
+new AA() {  
+    @Override  
+    public void method1() {  
+        System.out.println("1");  
+    }  
+};
+```
+
+**接口的应用：代理模式**
+
+代理模式是一种使用代理对象来执行目标对象的方法并在代理对象中增强目标对象方法的一种设计模式。
+
+使用代理模式的原因有：
+
+- 中介隔离作用：在某些情况下，一个客户类**不想或者不能直接引用**一个委托对象，而代理对象可以在客户类和委托对象之间起到**中介**的作用(代理类和委托类实现相同的接口)。以现实生活为例，经纪人就是明星的代理，外界可以通过联系经纪人来间接与明星沟通。
+- 开放封闭原则：可以通过给代理类增加额外的功能来扩展委托类的功能，这样只需要修改代理类而不需要再修改委托类，符合开闭原则。代理类主要负责为委托类预处理消息、过滤消息、把消息转发给委托类，以及事后对返回结果的处理等。代理类本身并不真正实现服务，而是同过调用委托类的相关方法，来提供特定的服务。使用代理模式，可以在调用委托类业务功能的前后加入一些公共的服务(例如鉴权、计时、缓存、日志、事务处理等)，甚至修改委托类的业务功能。
+
+代理可以分为静态代理和动态代理，前者更接近代理模式的本质。
+
+- 静态代理是由程序员编写代理类的源码，再编译代理类。所谓静态也就是在程序运行前就已经存在代理类的字节码文件，代理类和委托类的关系在运行前就已确定。
+- 动态代理是代理类的源码是在程序运行期间由编译器动态的生成(如JVM根据**反射**等机制生成代理类)。代理类和委托类的关系在程序运行时确定。
+
+```java
+public class Test16 {  
+    public static void main(String[] args) {  
+        manger manger = new manger(new RealStar());  
+        manger.process();  
+    }  
+}  
+  
+interface Star {  
+    void sing();  
+  
+    void dealAction();  
+}  
+  
+class RealStar implements Star {  
+  
+    @Override  
+    public void sing() {  
+        System.out.println("明星唱歌");  
+    }  
+  
+    @Override  
+    public void dealAction() {  
+  
+    }  
+}  
+  
+class manger implements Star {  
+  
+    private Star star;  
+  
+    public manger(Star star) {  
+        this.star = star;  
+    }  
+  
+    @Override  
+    public void sing() {  
+        System.out.println("经理人准备工作");  
+        star.sing();  
+        System.out.println("经理人收尾工作");  
+    }  
+  
+    @Override  
+    public void dealAction() {  
+        System.out.println("经纪人处理活动");  
+    }  
+  
+    public void process(){  
+        sing();  
+        dealAction();  
+    }  
+}
+
+```
