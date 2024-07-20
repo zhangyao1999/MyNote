@@ -341,3 +341,183 @@ class manger implements Star {
 实现了创建者和调用者的分离，即将创建对象的具体过程屏蔽合理起来，达到提高灵活性的目的。
 
 学完反射再写。
+
+接口面试题：
+类与接口同名参数
+
+```java
+public class Test18 {  
+    public static void main(String[] args) {  
+        new C().showX();  
+    }  
+}  
+  
+class A {  
+    int x = 0;  
+}  
+interface B{  
+    int x =2;  
+}  
+class C extends A implements B{  
+    public void showX(){  
+        System.out.println(super.x);  
+        System.out.println(B.x);  
+    }  
+}
+```
+**java8提供的新特性**
+
+- 接口中定义的静态方法，只能用过接口来调用。
+- 通过实现类的对象，可以调用接口中的默认方法。如果实现类重写了接口中的默认方法，调用时，仍然调用的是重写以后的方法。
+- 如果子类继承的父类和实现的接口中声明了同名同参数的方法，那么子类在没有重写此方法的情况下，默认调用的是父类中的同名同参数的方法。-类优先（仅针对方法，属性需要区分调用）
+- 在子类中调用被父类，接口重写的方法 分别是`super.method();` `Interface.super.method();`
+```
+public class Test18 {  
+    public static void main(String[] args) {  
+        A.method1(); // 静态方法直接用接口调用  
+        new B().method2(); // 默认方法使用实现类调用  
+        //new B().method1(); // 报错  静态方法不能用实现类调用  
+    }  
+}  
+interface A{  
+    void method();  
+    int X = 123;  
+    // 静态方法和默认方法的public 都可以省略  
+    public static void method1(){  
+        System.out.println("静态方法");  
+    }  
+    public default void method2(){  
+        System.out.println("默认方法");  
+    }  
+}  
+class B implements A{  
+    @Override  
+    public void method() {  
+        System.out.println("实现方法");  
+    }  
+}
+```
+
+**内部类**
+内部类分为成员内部类（静态和非静态）和局部内部类（方法内 代码块内 构造器内）
+```java
+class AA {  
+      
+  
+    class BB {  
+  
+    }  
+  
+    static class FF {  
+  
+    }  
+  
+    public void method() {  
+        class CC {  
+  
+        }  
+    }  
+  
+    {  
+        class DD {  
+  
+        }  
+    }  
+  
+    public AA() {  
+        class EE {  
+  
+        }  
+    }  
+}
+```
+
+- 内部类的方法里边可以直接调用外部类的方法 同样适用于静态规则
+	- 调用方式 `method()或者外部类名.this.method();`   属性也是一样
+- 内部类可以被权限修饰符修饰。
+
+**实例化内部类**
+
+- 实例化静态内部类
+	`AA.FF ff = new AA.FF();`
+
+- 实例化非静态内部类
+	`AA a = new AA();  AA.BB bb = a.new BB();`
+
+**使用举例**
+局部内部类：
+```java
+public class Study {  
+    public Comparable getComparable (){  
+        class MyComparable implements Comparable{  
+  
+            @Override  
+            public int compareTo(Object o) {  
+                return 0;  
+            }  
+        }  
+        return new MyComparable();  
+    }  
+    public Comparable getComparable2 (){  
+        return new Comparable(){  
+  
+            @Override  
+            public int compareTo(Object o) {  
+                return 0;  
+            }  
+        };  
+    }  
+}
+```
+
+```java
+public class Study {  
+   public void method (){  
+       String name = "123";  
+       class BB{  
+           public void userName(){  
+               System.out.println(name); // 局部内部类的方法中使用外层方法的局部变量 要求该局部变量必须是final的 jdk8可以省略 但实际也是final的  
+           }  
+       }  
+   }  
+}
+```
+
+**异常**
+
+java语言中，将程序发送的不正常情况称为异常（语法错误和逻辑错误不是异常）
+异常（Throwable）分为两类：
+Error:
+java虚拟机无法解决的严重问题，如jvm系统内部错误，资源耗尽等情况。StackOverflowError(方法递归容易导致) 和OOM（new 了一个很大的数组 堆溢出）。一般不编写针对性的问题处理。
+
+Exception：其他编程错误或者外在的因素导致的一般性问题。
+
+**异常的分类**
+编译时异常(IOException ClassNotFountException)
+
+运行时异常(RuntimeException)
+
+**异常处理方式**
+方式一：try catch finally
+catch中的异常类型如果没有子父类关系，谁在上下无所谓，如果有则子类在上
+finally 是一定会执行的 即使catch中有异常 return 或者try中有return  也还是会执行 且此处的return会覆盖前两处结构的return
+
+```java
+public class Test12 {  
+    public static void main(String[] args) {  
+        System.out.println(Method());   // 3
+    }  
+  
+    static int Method() {  
+        try {  
+            int i = 1 / 0;  
+            return 1;  
+        } catch (Exception e) {  
+            return 2;  
+        } finally {  
+            return 3;  
+        }  
+    }  
+}
+```
+方式二：在方法签名处 throws + 异常类型
