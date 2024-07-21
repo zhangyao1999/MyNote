@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/接口的使用说明.md",
+                "file": "Note/异常.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "内部",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/接口的使用说明.md",
+                "file": "Note/异常.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/接口的使用说明.md",
+                "file": "Note/异常.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/接口的使用说明.md"
+                "file": "Note/异常.md"
               }
             }
           }
@@ -158,15 +158,17 @@
   },
   "active": "98cf1b0847ef4c99",
   "lastOpenFiles": [
-    "Note/interface.md",
-    "Note/面向对象.md",
     "Note/JavaSe.md",
-    "Note/最新进度.md",
+    "Note/异常.md",
     "Note/TempRecord.md",
+    "Note/面向对象.md",
+    "Note/内部类.md",
+    "Note/interface.md",
     "Note/接口的使用说明.md",
+    "Note/类与接口同名同参数方法.md",
+    "Note/最新进度.md",
     "Note/静态方法默认方法举例.md",
     "Note/接口中的成员.md",
-    "Note/类与接口同名同参数方法.md",
     "Note/默认方法.md",
     "Note/静态方法.md",
     "Note/类与接口同名参数.md",
@@ -182,8 +184,6 @@
     "Note/abstract使用注意.md",
     "Note/抽象类和抽象方法的概念.md",
     "Note/final.md",
-    "Note/final的使用.md",
-    "Note/被final修饰的常量在编译阶段会被放入常量池中.md",
     "Pic/Pasted image 20240331210336.png",
     "Pic/Pasted image 20240331203331.png",
     "onnect-timeout",
