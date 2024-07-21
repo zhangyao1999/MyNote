@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/被final修饰的常量在编译阶段会被放入常量池中.md",
+                "file": "Note/接口的使用说明.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "final",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/被final修饰的常量在编译阶段会被放入常量池中.md",
+                "file": "Note/接口的使用说明.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/被final修饰的常量在编译阶段会被放入常量池中.md",
+                "file": "Note/接口的使用说明.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/被final修饰的常量在编译阶段会被放入常量池中.md"
+                "file": "Note/接口的使用说明.md"
               }
             }
           }
@@ -158,32 +158,32 @@
   },
   "active": "98cf1b0847ef4c99",
   "lastOpenFiles": [
+    "Note/interface.md",
+    "Note/面向对象.md",
+    "Note/JavaSe.md",
+    "Note/最新进度.md",
+    "Note/TempRecord.md",
+    "Note/接口的使用说明.md",
+    "Note/静态方法默认方法举例.md",
+    "Note/接口中的成员.md",
+    "Note/类与接口同名同参数方法.md",
+    "Note/默认方法.md",
+    "Note/静态方法.md",
+    "Note/类与接口同名参数.md",
+    "Note/接口的特性.md",
+    "Note/设计模式.md",
+    "Note/工厂模式.md",
+    "Note/接口的匿名实现类.md",
+    "Note/代理模式.md",
+    "Note/接口和接口之前可以多继承.md",
+    "Note/abstract.md",
+    "Note/依托于抽象类的模板方法与设计模式.md",
+    "Note/抽象类的注意点.md",
+    "Note/abstract使用注意.md",
+    "Note/抽象类和抽象方法的概念.md",
+    "Note/final.md",
     "Note/final的使用.md",
     "Note/被final修饰的常量在编译阶段会被放入常量池中.md",
-    "Note/final.md",
-    "Note/final初始化方式.md",
-    "Note/面向对象.md",
-    "Note/TempRecord.md",
-    "Note/JavaSe.md",
-    "Note/代码块.md",
-    "Note/普通代码块.md",
-    "Note/构造代码块.md",
-    "Note/静态代码块.md",
-    "Note/设计模式.md",
-    "Note/单例模式.md",
-    "Note/懒汉式.md",
-    "Note/饿汉式.md",
-    "Note/编程基础知识.md",
-    "Note/static.md",
-    "Note/包装类.md",
-    "Note/Object.md",
-    "Note/toString.md",
-    "Note/finalize.md",
-    "Note/equals.md",
-    "Note/clone.md",
-    "Note/多态.md",
-    "Note/向下转型.md",
-    "Note/自动类型提升，强制类型转换.md",
     "Pic/Pasted image 20240331210336.png",
     "Pic/Pasted image 20240331203331.png",
     "onnect-timeout",

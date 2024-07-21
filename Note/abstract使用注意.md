@@ -1,0 +1,2 @@
+- abstract不能与final并列修饰同一个类。
+- abstract 不能与private、static、final或native并列修饰同一个方法。
