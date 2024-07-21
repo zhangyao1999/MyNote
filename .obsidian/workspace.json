@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/单例模式.md",
+                "file": "Note/被final修饰的常量在编译阶段会被放入常量池中.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "面试",
+                "query": "final",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/单例模式.md",
+                "file": "Note/被final修饰的常量在编译阶段会被放入常量池中.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/单例模式.md",
+                "file": "Note/被final修饰的常量在编译阶段会被放入常量池中.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/单例模式.md"
+                "file": "Note/被final修饰的常量在编译阶段会被放入常量池中.md"
               }
             }
           }
@@ -158,13 +158,24 @@
   },
   "active": "98cf1b0847ef4c99",
   "lastOpenFiles": [
+    "Note/final的使用.md",
+    "Note/被final修饰的常量在编译阶段会被放入常量池中.md",
+    "Note/final.md",
+    "Note/final初始化方式.md",
+    "Note/面向对象.md",
+    "Note/TempRecord.md",
+    "Note/JavaSe.md",
+    "Note/代码块.md",
+    "Note/普通代码块.md",
+    "Note/构造代码块.md",
+    "Note/静态代码块.md",
     "Note/设计模式.md",
     "Note/单例模式.md",
-    "Note/JavaSe.md",
-    "Note/面向对象.md",
+    "Note/懒汉式.md",
+    "Note/饿汉式.md",
+    "Note/编程基础知识.md",
     "Note/static.md",
     "Note/包装类.md",
-    "Note/TempRecord.md",
     "Note/Object.md",
     "Note/toString.md",
     "Note/finalize.md",
@@ -173,17 +184,6 @@
     "Note/多态.md",
     "Note/向下转型.md",
     "Note/自动类型提升，强制类型转换.md",
-    "Note/继承.md",
-    "Note/方法的重写.md",
-    "Note/重载和重写的区别.md",
-    "Note/方法的重载.md",
-    "Note/方法.md",
-    "Note/可变形参的方法.md",
-    "Note/方法的值传递机制.md",
-    "Note/封装.md",
-    "Note/权限修饰符.md",
-    "Note/编程基础知识.md",
-    "Note/JAVA语言概述.md",
     "Pic/Pasted image 20240331210336.png",
     "Pic/Pasted image 20240331203331.png",
     "onnect-timeout",
