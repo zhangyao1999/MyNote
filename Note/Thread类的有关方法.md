@@ -1,0 +1,10 @@
+- start 启动当前线程，调用当前线程run
+- [[run]] 重写
+- currentThread 静态方法 返回执行当前代码的线程
+- setName 设置线程名称
+- getName 获取线程名称
+- [[yield]] 释放当前cpu的执行权 不一定有效
+- [[join]] 在线程A中调用线程B的join方法，现场A就进入阻塞状态，知道线程B完全执行完以后，A才结束阻塞状态。
+- [[sleep]]
+- [[isAlive]]
+- [[wait]]

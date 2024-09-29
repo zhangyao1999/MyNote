@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "98cf1b0847ef4c99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/异常.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bfa9e874653c085f",
             "type": "leaf",
             "state": {
@@ -74,12 +61,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "392d15f2bc600e33",
@@ -95,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/异常.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/异常.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Note/异常.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -156,34 +139,37 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "98cf1b0847ef4c99",
+  "active": "bfa9e874653c085f",
   "lastOpenFiles": [
-    "Note/JavaSe.md",
-    "Note/异常.md",
-    "Note/TempRecord.md",
-    "Note/面向对象.md",
-    "Note/内部类.md",
+    "Pic/String传值.jpg",
+    "Pic/HelloWorld.java",
+    "Note/概述.md",
+    "Note/向下转型.md",
+    "Note/构造器.md",
+    "Note/this.md",
+    "Note/Shell.md",
+    "Note/普通代码块.md",
+    "Note/子类对象实例化过程.md",
     "Note/interface.md",
-    "Note/接口的使用说明.md",
-    "Note/类与接口同名同参数方法.md",
-    "Note/最新进度.md",
-    "Note/静态方法默认方法举例.md",
-    "Note/接口中的成员.md",
-    "Note/默认方法.md",
-    "Note/静态方法.md",
-    "Note/类与接口同名参数.md",
-    "Note/接口的特性.md",
-    "Note/设计模式.md",
-    "Note/工厂模式.md",
-    "Note/接口的匿名实现类.md",
-    "Note/代理模式.md",
-    "Note/接口和接口之前可以多继承.md",
-    "Note/abstract.md",
-    "Note/依托于抽象类的模板方法与设计模式.md",
+    "Note/wait.md",
+    "Note/什么是sql execution plan 执行计划.md",
+    "Note/线程的同步.md",
     "Note/抽象类的注意点.md",
-    "Note/abstract使用注意.md",
-    "Note/抽象类和抽象方法的概念.md",
-    "Note/final.md",
+    "Note/同步方法.md",
+    "Note/线程的安全问题.md",
+    "Note/代码块.md",
+    "Note/线程的通信.md",
+    "Note/面向对象.md",
+    "Note/死锁.md",
+    "Note/构造代码块.md",
+    "Note/toString.md",
+    "Note/join.md",
+    "Note/默认方法.md",
+    "Note/super.md",
+    "Note/依托于抽象类的模板方法与设计模式.md",
+    "Note/静态方法.md",
+    "Pic",
+    "Note",
     "Pic/Pasted image 20240331210336.png",
     "Pic/Pasted image 20240331203331.png",
     "onnect-timeout",
@@ -191,20 +177,16 @@
     "Pic/Pasted image 20240213151747.png",
     "Pic/Pasted image 20240213155236.png",
     "Pic/Pasted image 20240216003436.png",
-    "Pic/String传值.jpg",
     "String形参值传递机制.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "Shell",
     "other",
-    "Pic/HelloWorld.java",
     "Pic/Pasted image 20240212200530.png",
     "\u001b[A\u001b[A\u001b[B\u001b[B\u001b[B.pub",
     "\u001b[A\u001b[A\u001b[B\u001b[B\u001b[B",
     "Pic/Pasted image 20240210151043.png",
     "Pic/Pasted image 20240210151007.png",
-    "Pic/Pasted image 20240210150953.png",
-    "Pic",
-    "Note"
+    "Pic/Pasted image 20240210150953.png"
   ]
 }

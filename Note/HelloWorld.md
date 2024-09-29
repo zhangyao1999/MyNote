@@ -1,5 +1,4 @@
 - javac HelloWorld.java ：编译为字节码文件
 - java HelloWorld ：运行字节码文件（不需要加.class后缀）
-- ![[Pasted image 20240213155236.png]]
 - 编码问题：
 	- 由于mac 系统默认为utf-8所以中文没有乱码，这里手动使用[[vim命令]]中的修改文件编码格式将utf-8修改为gbk编码。保存再次编译后报错。

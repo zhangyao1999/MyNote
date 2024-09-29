@@ -1,0 +1,1 @@
+设想当我们在使用多态时，父类的方法规定抛出IOException, 我们使用try catch( IOException e)解决这一问题 ， 这时子类的方法若抛出IOException的子类，那代码仍然可以正常运行，如果可以抛出其他更大的异常，则代码就报错了。

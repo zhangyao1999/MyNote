@@ -1,4 +1,4 @@
-![[Pasted image 20240331203331.png]]
+
 命令：mvn archetype:generate
 需要手动输入一些信息来创建
 ```
