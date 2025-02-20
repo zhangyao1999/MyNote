@@ -1,5 +1,7 @@
 JDK5.0开始，java提供了更强大的线程同步机制，通过显式定义同步锁对象来实现同步，同步锁使用Lock对象来充当。
+
 java.util.concurrent.locks.Lock接口是控制多个线程对共享资源进行访问的工具。锁提供了对共享资源的独占访问，每次只能有一个线程对Lock对象加锁，线程开始访问共享资源之前应先获得Lock对象。
+
 ReentrantLock类实现了Lock。可以显式的加锁，释放锁。
 ```java
 import java.util.concurrent.locks.ReentrantLock;
@@ -53,7 +55,7 @@ class Window1 implements Runnable {
 
 ```
 
-面试题：synchronized 和 lock 的异同
+**面试题**：synchronized 和 lock 的异同
 相同：都是解决现场安全问题
 不同：synchronized 是隐式锁 机制在执行完相应的同步代码以后， 自动的释放同步监视器
 		lock 是显式锁 需要手动的去启动同步 同时结束同步也需要手动的实现。jvm将花费更少的时间来调度线程，性能更好，并且具有更好的扩展性（提供更多的子类）。
