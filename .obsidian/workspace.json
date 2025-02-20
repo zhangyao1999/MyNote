@@ -8,103 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e51e215e2eedb0d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/总纲.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "总纲"
-            }
-          },
-          {
-            "id": "5899aabee5c261c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/前端.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "前端"
-            }
-          },
-          {
-            "id": "974bec676db5709b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/前端.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "前端"
-            }
-          },
-          {
-            "id": "cdab981d60184de5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/概念.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "概念"
-            }
-          },
-          {
-            "id": "6dfa4b2f151fcc8b",
+            "id": "66c38ad2b98e3168",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -128,12 +32,12 @@
             }
           },
           {
-            "id": "1ac5325e39de1afe",
+            "id": "1be590d9d079349d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/前端.md",
+                "file": "Note/HTML 标签.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,59 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "前端"
-            }
-          },
-          {
-            "id": "bc567c5f3f909796",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/HTML4.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HTML4"
-            }
-          },
-          {
-            "id": "899e7064dac88afa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/HTML概念.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "HTML概念"
+              "title": "HTML 标签"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -257,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "392d15f2bc600e33",
@@ -343,14 +198,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "899e7064dac88afa",
+  "active": "1be590d9d079349d",
   "lastOpenFiles": [
-    "Note/HTML概念.md",
     "Note/HTML4.md",
     "Note/前端.md",
+    "Note/总纲.md",
+    "Note/JavaSe.md",
+    "Note/面向对象.md",
+    "Note/包装类.md",
+    "Note/安装JDK.md",
+    "Note/HTML 标签.md",
+    "Note/HTML概念.md",
     "Note/概念.md",
     "Note/网页有哪些部分组成.md",
-    "Note/总纲.md",
     "Note/Maven.md",
     "Note/ORACLE.md",
     "Note/执行计划.md",
@@ -366,11 +226,6 @@
     "Note/类名.class.md",
     "Note/线程的安全问题.md",
     "Note/线程的生命周期.md",
-    "Note/挂起或者执行输入输出操作时.md",
-    "Note/阻塞的cpu停止挂起操作.md",
-    "Note/运行的线程失去cpu时间片.md",
-    "Note/线程的创建和使用.md",
-    "Note/线程的调度.md",
     "nzp8791.tmp",
     "MyNote.zip",
     "MyNote0918.zip",
